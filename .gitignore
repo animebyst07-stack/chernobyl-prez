@@ -1,0 +1,19 @@
+# Распакованные/собранные артефакты — не нужны в репе
+pptx_extract/
+chernobyl-fix1.tar.gz
+chernobyl-media.tar.gz
+chernobyl-media.zip
+plan_source.txt
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Кэш cloudflared/lhr
+.cache/
+
+# Прочее
+.DS_Store
+.idea/
+.vscode/
